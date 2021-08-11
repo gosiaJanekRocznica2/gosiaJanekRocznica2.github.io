@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>Quiz 2 rocznica</title>
+	<meta name="author" content="Jan Rubach">
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
+</head>
+
+<body>
+
+	<header>
+	
+		<nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+		
+			<a class="navbar-brand" href="#">Quiz</a>
+		
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="Przełącznik nawigacji">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		
+			<div class="collapse navbar-collapse" id="mainmenu">
+			
+				<ul class="navbar-nav mr-auto">
+				
+					<li class="nav-item">
+						<a class="nav-link" href="/history.html"> Krótka historia </a>
+					</li>
+				
+					<li class="nav-item">
+						<a class="nav-link" href="/rules.html"> Zasady </a>
+					</li>
+					
+					<li class="nav-item active">
+						<a class="nav-link" href="/startQuiz.html"> Rozpocznij quizz </a>
+					</li>
+					
+				</ul>			
+			</div>
+		
+		</nav>
+	
+	</header>
+	
+	<main>
+		<div class="panel panel-info col-lg-6 offset-lg-3 mt-5 mb-5">
+			<div class="panel-heading bg-info text-center p-2 border border-primary rounded-top rounded-bottom"><h2 id="numberQuestion">Pytanie nr 3</h2></div>
+			<div class="panel-body p-2 border border-primary rounded-top rounded-bottom">
+				<h3 id="question">Pytanie quiz:</h3>
+
+				<div class="form-check mt-4">
+					<input class="form-check-input" type="radio" name="answer" id="a" value="1">
+					<label class="form-check-label" for="a">
+						<h4 id="answerA">Odpowiedz a</h4>
+					</label>
+				</div>
+
+				<div class="form-check mt-2">
+					<input class="form-check-input" type="radio" name="answer" id="b" value="2">
+					<label class="form-check-label" for="b">
+						<h4 id="answerB">Default checked radio</h4>
+					</label>
+				</div>
+
+				<div class="form-check mt-2">
+					<input class="form-check-input" type="radio" name="answer" id="c" value="3">
+					<label class="form-check-label" for="c">
+						<h4 id="answerC">Default checked radio</h4>
+					</label>
+				</div>
+
+				<div class="form-check mt-2">
+					<input class="form-check-input" type="radio" name="answer" id="d" value="4">
+					<label class="form-check-label" for="d">
+						<h4 id="answerD">Default checked radio</h4>
+					</label>
+				</div>
+
+				<button type="button" class="btn btn-info btn-lg btn-block mt-4" id="submitButton">Wyślij odpowiedź na pytanie</button>
+			</div>
+
+
+		</div>
+	</main>
+	
+
+
+	<footer id="footer" class="page-footer font-small bg-primary">
+		<div class="footer-copyright text-center text-white py-3">© 2021 Copyright:
+			<a class="text-white" href="https://www.facebook.com/jan.rubach.18" target="_blank"> Jan Rubach</a>
+		</div>
+	</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	
+	<script src="js/bootstrap.min.js"></script>
+
+	<script src="quiz.js"></script>
+	
+</body>
+</html>
