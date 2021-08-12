@@ -20,7 +20,7 @@ startQuizButton.addEventListener('click', async e=>{
 
 
 async function getQuestionsID() {
-  result = await fetch("http://localhost:8080/quiz/getQuestionsId", {
+  result = await fetch("https://gosiajanekrocznica2.herokuapp.com/quiz/getQuestionsId", {
       method: 'GET',
       headers: ({
           "Content-Type": "application/json; charset=UTF-8"

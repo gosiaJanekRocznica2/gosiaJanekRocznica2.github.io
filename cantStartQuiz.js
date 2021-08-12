@@ -41,7 +41,7 @@ function calculateHoursMinutesAndSeconds(secondsToStart){
 }
 
 async function getTimeToStart(){
-  result = await fetch("http://localhost:8080/quiz/getTimeToStart", {
+  result = await fetch("https://gosiajanekrocznica2.herokuapp.com/quiz/getTimeToStart", {
       method: 'GET',
       headers: ({
           "Content-Type": "application/json; charset=UTF-8"

@@ -46,7 +46,7 @@ function setElementOnSite(questionQuiz){
 }
 
 async function getQuestion(id){
-  result = await fetch("http://localhost:8080/quiz?id="+id, {
+  result = await fetch("https://gosiajanekrocznica2.herokuapp.com/quiz?id="+id, {
       method: 'GET',
       headers: ({
           "Content-Type": "application/json; charset=UTF-8"
@@ -89,7 +89,7 @@ submitButton.addEventListener('click', async e=>{
 })
 
 async function checkAnswer(id, answer) {
-  result = await fetch("http://localhost:8080/quiz/checkAnswer?id="+id+"&answer="+answer, {
+  result = await fetch("https://gosiajanekrocznica2.herokuapp.com/quiz/checkAnswer?id="+id+"&answer="+answer, {
       method: 'GET',
       headers: ({
           "Content-Type": "application/json; charset=UTF-8"

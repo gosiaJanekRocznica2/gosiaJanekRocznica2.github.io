@@ -29,7 +29,7 @@ getPinButton.addEventListener('click', async e=>{
   getPinButton.innerHTML = pin
 })
 async function getVideo(){
-  result = await fetch("http://localhost:8080/video/getSuccess", {
+  result = await fetch("https://gosiajanekrocznica2.herokuapp.com/video/getSuccess", {
       method: 'GET',
       headers: ({
           "Content-Type": "application/json; charset=UTF-8"
@@ -40,7 +40,7 @@ async function getVideo(){
 }
 
 async function getPin(){
-  result = await fetch("http://localhost:8080/quiz/getPIN", {
+  result = await fetch("https://gosiajanekrocznica2.herokuapp.com/quiz/getPIN", {
       method: 'GET',
       headers: ({
           "Content-Type": "application/json; charset=UTF-8"

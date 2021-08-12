@@ -22,7 +22,7 @@ async function setSite(){
 }
 
 async function getVideo(){
-  result = await fetch("http://localhost:8080/video/getFailure", {
+  result = await fetch("https://gosiajanekrocznica2.herokuapp.com/video/getFailure", {
       method: 'GET',
       headers: ({
           "Content-Type": "application/json; charset=UTF-8"
