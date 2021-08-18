@@ -1,9 +1,9 @@
-
 checkAccess();
 videoYT = document.getElementById("videoYT")
 setSite();
 
 function checkAccess(){
+  console.warn("CHECK")
   if(localStorage.getItem('AnswerCounter')==null){
     location.href = "/rules.html"
   }else{
