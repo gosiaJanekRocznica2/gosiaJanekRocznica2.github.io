@@ -1,3 +1,4 @@
+console.warn("WHY?")
 checkAccess();
 videoYT = document.getElementById("videoYT")
 setSite();
